@@ -1,0 +1,9 @@
+{
+    "AWS_REGION": "us-east-1",
+    "ECR_REPO_NAME": "fastapi-backend",
+    "EB_APP_NAME": "FastAPIApp",
+    "EB_ENV_NAME": "FastAPIEnv",
+    "SCALE_MIN_INSTANCES": 1,
+    "SCALE_MAX_INSTANCES": 2,
+    "CPU_TARGET_UTILIZATION": 70
+}

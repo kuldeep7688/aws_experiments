@@ -1,0 +1,13 @@
+{
+    "AWS_REGION": "us-east-1",
+    "ECR_REPO": "fastapi-ecs",
+    "CLUSTER_NAME": "fastapi-cluster",
+    "TASK_FAMILY": "fastapi-task",
+    "SERVICE_NAME": "fastapi-service",
+    "CONTAINER_NAME": "fastapi-container",
+    "CPU": "512",
+    "MEMORY": "1024",
+    "DESIRED_COUNT": 2,
+    "MAX_CAPACITY": 5,
+    "MIN_CAPACITY": 1
+}
